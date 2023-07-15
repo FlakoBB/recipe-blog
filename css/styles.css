@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@400;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+	color: #333;
+}
+
+html,
+body {
+	min-height: 100dvh;
+	background-color: #FAFAFA;
+}
+
+body {
+	padding: 1rem;
+}
+
+.introduction {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.introduction h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 1.5rem;
+	color: #000;
+}
+
+.introduction .description {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	gap: .6rem;
+	margin-bottom: 1rem;
+}
+
+.description .dots {
+	color: #c4c4c4;
+}
+
+.description p {
+	font-size: .8rem;
+	text-wrap: balance;
+}
+
+.introduction figure img {
+	width: 100%;
+}
+
+.icon_text {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: .6rem;
+}
+
+.extra_info {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	gap: 1rem;
+	padding: 1rem 0;
+}
+
+.serving_info,
+.time_info {
+	display: flex;
+	flex-direction: column;
+}
+
+.serving_info .yields,
+.time_info .time {
+	font-size: .6rem;
+	font-weight: 500;
+}
+
+.serving_info .title,
+.time_info .title {
+	color: #BDBDBD;
+	font-size: .6rem;
+}
+
+.servings i {
+	color: #F2994A;
+}
+.serving_info .yields {
+	color: #F2994A;
+	font-weight: 700;
+}
+
+.time_container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
